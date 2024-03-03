@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/e2a4c243e8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="cooltext453381197098418.png" alt="logo" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Work Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="headertext">
+          <h1>Hi, I'm <span>Anmol</span></h1>
+          <p>Ex-SE Intern @Cadence Design Systems</p>
+          <span id="element"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------About-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="about.png">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello there! I'm Anmol Jaiswal, a passionate and ambitious 4th-year B.Tech student majoring in Computer Science and Engineering. 
+                        During my academic journey, I have developed a strong foundation in computer science fundamentals and honed my technical skills 
+                        in areas such as programming languages, data structures, algorithms, and software development. I am also part of Graphic Era Hill 
+                        University tech community, contributing to various tech events and projects. As I approach the final year of my B.Tech program, 
+                        I am eagerly seeking internships and projects that will provide me with practical industry experience and the opportunity to apply 
+                        my knowledge to real-world challenges. I am particularly interested in Web Development and Machine Learning, and I am eager to 
+                        explore the intersection of technology and innovation.
+                        </p>
+                    <div class="tabtitles">
+                        <p class="tablinks active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks "onclick="opentab('experience')">Achievements / Certifications</p>
+                        <p class="tablinks"onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tabcontents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML / CSS / JavaScript</span><br>Web Devlopment</li>
+                            <li><span>C / C++ / CoreJava</span><br>Programming Languages</li>
+                            <li><span> Android Studio, Git, Atlassian Confluence Space, VS Code, Anaconda (Spyder).</span><br>Developer Tools</li>
+                            <li><span> DSA, DBMS, OOPS, Computer Networks, Operating System, Machine Learning.</span><br>Course Fundamentals</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tabcontents" id="experience">
+                        <ul>
+                            <li><span>◦ Virtual Internship Program - Full Stack Development</span><br></li>
+                            <li><span>◦ TATA Crucible Campus Quiz Cluster Finalist 2023</span><br></li>
+                            <li><span>◦ Artificial Intelligence and Machine Learning Fundamentals - @Cadence</span><br></li>
+                            <li><span>◦ India_Internship_GEHU_CYBERSECURITY_ESSENTIALS1 - Cisco</span><br></li>
+                            <li><span>◦ 700+ Coding Questions across platforms like LeetCode, GFG and Coding Ninjas</span><br></li>
+                            
+                        </ul>
+                    </div>
+    
+                    <div class="tabcontents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.TECH in Computer Science - 8.75 SGPA<br>
+                                Graphic Era Hill University Dehradun</li>
+                            <li><span>2019</span><br>12th C.B.S.E - 89.2%<br>Bethany Convent Sr. Sec. School</li>
+                            <li><span>2017</span><br>10th C.B.S.E - 9.2 CGPA <br>Bethany Convent Sr. Sec. School</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----------Serivces----------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Work Experience</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <!-- <img src="Cadence.jpg"> -->
+                    <h2>Software Engineer Intern - Cadence Design Systems</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7103714533931692032/" target="_blank">Know more</a>
+                </div>
+                <div id="codeclause">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Development Intern - CodeClause</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7094345604339777536/" target="_blank">Know more</a>
+                </div>
+                <div id="amazonml">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Mentee (Apprenticeship) - Amazon ML<br> Summer School</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7127709354836865024/" target="_blank">Know more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------Work Experience--------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="anxietybrain.jpg" alt="">
+                    <div class="layer">
+                        <h3>EmoSupport: A Comparative Study for the Analysis of Mental Health of Undergraduate Students</h3>
+                        <!-- <p>This research project explores the application of various machine learning algorithms, including Logistic Regression, Support Vector Machines, Decision Trees, Naive Bayes, K Nearest Neighbors, and Random Forests, for predicting and assessing stress, anxiety, and depression levels based on survey responses</p> -->
+                        <a href="https://github.com/Anmol012001/EmoSupport-A-Comparative-Study-for-the-Analysis-of-Mental-Health-of-Undergraduate-Students" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="botnet.jpg" alt="">
+                    <div class="layer">
+                        <h3>Iot Botnet Classification and Detection</h3>
+                        <p>Developed and compared multiple
+                            Machine Learning models to detect malicious and benign traffic in various IOT devices like webcam etc.</p>
+                        <a href="https://github.com/Anmol012001/Iot-Botnet-Classification-and-Detection" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="ccfd.jpg" alt="">
+                    <div class="layer">
+                        <h3>Credit Card Fraud Detection</h3>
+                        <p> Developed a Machine Learning model for testing
+                            whether the fraud has occurred or not using Logistic Regression achieving a accuracy rate of 94%.</p>
+                        <a href="https://github.com/Anmol012001/Credit-Card-Fraud-Detection" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="gym.PNG" alt="">
+                    <div class="layer">
+                        <h3> Gym Portal Landing Page</h3>
+                        <p>  Designed and developed an Frontend Website of a Gym Portal using
+                            HTML, CSS, and JavaScript.</p>
+                        <a href="https://github.com/Anmol012001/Basic-Landing-Project" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="mentalanxiety.PNG" alt="">
+                    <div class="layer">
+                        <h3>Mental Health Quiz App</h3>
+                        <p> Create a user-friendly mental health quiz app using Kotlin to assess and promote mental well-being through engaging questions and insightful feedback.</p>
+                        <a href="https://github.com/Anmol012001/MentalHealthApp/tree/master" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="clock.jpg" alt="">
+                    <div class="layer">
+                        <h3>Analog Clock</h3>
+                        <p> Build an elegant analog clock using HTML, CSS, and JavaScript for a visually appealing representation of time.</p>
+                        <a href="https://github.com/Anmol012001/Clock" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+
+    <!-- --------------------Coding Profiles---------------------- -->
+
+    <div id="coding">
+        <div class="container">
+            <h1 class="sub-title">Coding Profiles</h1>
+            <div class="coding-list">
+                <div>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <img src="leetcode.png">
+                    <h2>Leetcode</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://leetcode.com/Anmol_jais/" target="_blank">Click Here</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <img src="gfg.jpg" alt="">
+                    <h2>GeekForGeeks</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://auth.geeksforgeeks.org/user/anmoljaiswal012001" target="_blank">Click Here</a>
+                </div>
+                <div>
+                    <!-- <i class="fa-solid fa-code"></i> -->
+                    <img src="cn.jpg" alt="">
+                    <h2>Coding Ninjas</h2>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, est laborum suscipit ipsam porro, saepe beatae autem mollitia quasi doloremque exercitationem quis laboriosam!</p> -->
+                    <a href="https://www.codingninjas.com/studio/profile/anmol_jais1"target="_blank">Click Here</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ------------Contact----------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>anmoljaiswal012001@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>6394148872</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/anmol-jaiswal-398839262/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Anmol012001?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                        <!-- <a href="#"><i class="fa-brands fa-telegram"></i></a> -->
+                        <a href="https://www.instagram.com/anmol_jais111?igsh=Y2RxM24xM3NvcHlw"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="Resume-J.pdf" download class="btn btn2">Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+                        <button type="ubmit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Thanks for viewing my Portoflio <i class="fa-solid fa-heart"></i> Anmol</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- For Animation of my name -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["I'm an aspiring Web Developer<br> and Software Developer."],
+        typeSpeed: 70,
+      });
+    </script>
+
+    <script>
+        
+        let tablinks = document.getElementsByClassName("tablinks");
+        let tabcontents = document.getElementsByClassName("tabcontents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var side = document.getElementById("sidemenu");
+
+        function openmenu(){
+            side.style.right = "0";
+        }
+
+        function closemenu(){
+            side.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxgkVqDPUL93TKdujqYtaT1_61cTcF0dE270-XqBnpOxBJGr6XBEqJHEszC1G_mRS10jw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const mssg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                mssg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    mssg.innerHTML = ""
+                },4500)
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+  </body>
+</html>
